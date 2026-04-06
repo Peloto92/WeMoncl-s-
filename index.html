@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Monclús | Wedding Planner & Event Design</title>
+  <meta
+    name="description"
+    content="We Monclús crea bodas y celebraciones con una estética elegante, íntima y atemporal."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">We Monclús</a>
+
+      <nav class="nav">
+        <a href="#about" data-i18n="navAbout">Sobre nosotras</a>
+        <a href="#services" data-i18n="navServices">Servicios</a>
+        <a href="#process" data-i18n="navProcess">Proceso</a>
+        <a href="#testimonials" data-i18n="navTestimonials">Testimonios</a>
+        <a href="#contact" data-i18n="navContact">Contacto</a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Selector de idioma">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="ca">CAT</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow" data-i18n="heroEyebrow">Wedding Planner · Valencia · Worldwide</p>
+        <h1 data-i18n="heroTitle">
+          Diseñamos bodas que se sienten íntimas, elegantes y eternas.
+        </h1>
+        <p class="hero-text" data-i18n="heroText">
+          Creamos celebraciones con alma, cuidando cada detalle para que vuestra historia se viva con belleza, calma y emoción.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" data-i18n="heroCtaPrimary">Empezar vuestra historia</a>
+          <a href="#services" class="btn btn-secondary" data-i18n="heroCtaSecondary">Descubrir servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div class="intro-copy reveal">
+          <p class="section-label" data-i18n="introLabel">Una experiencia pensada con sensibilidad</p>
+          <h2 data-i18n="introTitle">Más que organizar una boda: crear una atmósfera inolvidable.</h2>
+          <p data-i18n="introText1">
+            En We Monclús concebimos cada celebración como una historia irrepetible.
+            Acompañamos a cada pareja con cercanía, orden y una visión estética muy cuidada.
+          </p>
+          <p data-i18n="introText2">
+            Nuestro trabajo consiste en traducir emociones en una experiencia real, elegante y sin estrés.
+          </p>
+        </div>
+        <div class="intro-quote reveal">
+          <blockquote data-i18n="introQuote">
+            “El verdadero lujo está en vivir el momento con calma, belleza y sentido.”
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container split-layout">
+        <div class="image-card reveal">
+          <img src="assets/about.jpg" alt="We Monclús wedding planning" />
+        </div>
+        <div class="text-card reveal">
+          <p class="section-label" data-i18n="aboutLabel">Sobre We Monclús</p>
+          <h2 data-i18n="aboutTitle">Diseño, organización y una mirada profundamente personal.</h2>
+          <p data-i18n="aboutText1">
+            Acompañamos a parejas que desean una boda con identidad, emoción y armonía visual.
+          </p>
+          <p data-i18n="aboutText2">
+            Desde Valencia y para celebraciones en cualquier destino, cuidamos cada fase del proceso con una mezcla de sensibilidad estética, planificación y atención al detalle.
+          </p>
+          <p data-i18n="aboutText3">
+            Queremos que disfrutéis del camino con la misma intensidad con la que recordaréis el gran día.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="servicesLabel">Servicios</p>
+          <h2 data-i18n="servicesTitle">Una planificación a medida para celebrar con belleza y tranquilidad.</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card reveal">
+            <h3 data-i18n="service1Title">Organización integral</h3>
+            <p data-i18n="service1Text">
+              Gestión completa de la boda, desde la idea inicial hasta la coordinación final.
+            </p>
+          </article>
+
+          <article class="service-card reveal">
+            <h3 data-i18n="service2Title">Diseño y estética</h3>
+            <p data-i18n="service2Text">
+              Concepto visual, ambientación, decoración y coherencia estilística de todo el evento.
+            </p>
+          </article>
+
+          <article class="service-card reveal">
+            <h3 data-i18n="service3Title">Coordinación del día</h3>
+            <p data-i18n="service3Text">
+              Supervisión completa para que solo tengáis que vivir, sentir y disfrutar.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="processLabel">Proceso</p>
+          <h2 data-i18n="processTitle">Cómo trabajamos vuestra historia</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>01</span>
+            <h3 data-i18n="process1Title">Escuchamos</h3>
+            <p data-i18n="process1Text">Entendemos vuestra historia, estilo, prioridades y manera de celebrar.</p>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>02</span>
+            <h3 data-i18n="process2Title">Diseñamos</h3>
+            <p data-i18n="process2Text">Construimos una propuesta coherente, estética y totalmente personalizada.</p>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>03</span>
+            <h3 data-i18n="process3Title">Coordinamos</h3>
+            <p data-i18n="process3Text">Organizamos cada proveedor, timing y detalle con precisión.</p>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span>04</span>
+            <h3 data-i18n="process4Title">Acompañamos</h3>
+            <p data-i18n="process4Text">El día de la boda estamos presentes para que todo fluya con calma y belleza.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="reasonsLabel">Por qué We Monclús</p>
+          <h2 data-i18n="reasonsTitle">Una forma de planificar que combina emoción, orden y sofisticación.</h2>
+        </div>
+
+        <div class="reasons-grid">
+          <div class="reason reveal">
+            <h3 data-i18n="reason1Title">Cercanía real</h3>
+            <p data-i18n="reason1Text">Una experiencia acompañada, humana y atenta desde el primer momento.</p>
+          </div>
+          <div class="reason reveal">
+            <h3 data-i18n="reason2Title">Estética editorial</h3>
+            <p data-i18n="reason2Text">Creamos escenarios visualmente armónicos, elegantes y atemporales.</p>
+          </div>
+          <div class="reason reveal">
+            <h3 data-i18n="reason3Title">Tranquilidad</h3>
+            <p data-i18n="reason3Text">Vosotros vivís el momento; nosotras sostenemos toda la experiencia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="testimonialsLabel">Testimonios</p>
+          <h2 data-i18n="testimonialsTitle">Palabras que hablan de confianza.</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial reveal">
+            <p data-i18n="testimonial1">
+              “Sentimos que estábamos organizando la boda con alguien que nos entendía de verdad.”
+            </p>
+          </article>
+          <article class="testimonial reveal">
+            <p data-i18n="testimonial2">
+              “Pudimos disfrutar sin preocuparnos por nada. Todo estuvo cuidado con muchísimo mimo.”
+            </p>
+          </article>
+          <article class="testimonial reveal">
+            <p data-i18n="testimonial3">
+              “Transformaron nuestra idea en una experiencia preciosa, coherente y llena de emoción.”
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-box reveal">
+        <div class="contact-copy">
+          <p class="section-label" data-i18n="contactLabel">Contacto</p>
+          <h2 data-i18n="contactTitle">Empecemos a imaginar vuestro gran día.</h2>
+          <p data-i18n="contactText">
+            Cuéntanos vuestra idea, el lugar y la fecha aproximada. Estaremos encantadas de conoceros.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" data-i18n-placeholder="formName" placeholder="Nombre" />
+          <input type="email" data-i18n-placeholder="formEmail" placeholder="Email" />
+          <input type="text" data-i18n-placeholder="formDate" placeholder="Fecha o temporada" />
+          <textarea rows="5" data-i18n-placeholder="formMessage" placeholder="Contadnos vuestra historia"></textarea>
+          <button type="submit" class="btn btn-primary" data-i18n="formButton">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> We Monclús</p>
+      <p data-i18n="footerText">Wedding Planner & Event Design</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
